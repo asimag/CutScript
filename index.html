@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CutScript</title>
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
+    <link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <!-- Top Bar -->
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="container d-flex">
+            <div class="contact-info d-flex align-items-center">
+                <i class="bi bi-envelope">
+                    <a href="mailto:info@cutscript.com">info@cutscript.com</a>
+                </i>
+                <i class="bi bi-phone ms-4"><span>+92 321 1111 2222 </span></i>
+            </div>
+            <div class="social-links d-none d-md-flex ms-auto align-items-center">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <nav id="header" class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <h1 class="logo">
+                <a href="#">CutScript<span>.</span></a>
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navMenu"
+            >
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul id="navbar" class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Future</a>
+                    </li>
+                    <li class="dropdown" >
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" href="#">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Product 1</a></li>
+                            <li><a class="dropdown-item" href="#">Product 2</a></li>
+                            <li><a class="dropdown-item" href="#">Product 3</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Product 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center mb-5">
+        <div class="container" data-aos="zoom-out" data-aos-delay="200" >
+            <h1>Welcome to <span>CutScript</span></h1>
+            <h2>Learn how to be a talented designer with Bootstrap</h2>
+            <div class="d-flex align-items-center">
+                <a href="#about" class="btn btn-primary scrollto">Get Started</a>
+                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="ps-3 glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Services Section -->
+    <section class="featured-services">
+        <div class="container" data-aos="fade-up" >
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="bi bi-diagram-3"></i></div>
+                        <h4 class="title">Services</h4>
+                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="bi bi-bullseye"></i></div>
+                        <h4 class="title">Learn</h4>
+                        <p class="description">Learn everything from start to end. Become Professional</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="bi bi-building"></i></div>
+                        <h4 class="title">Building</h4>
+                        <p class="description">You can build your own Web Applications using these tutorials.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="bi bi-camera-video"></i></div>
+                        <h4 class="title">Secure</h4>
+                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    About Us-->
+    <section class="about mt-5">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title text-center">
+                <h2>About</h2>
+                <h3>Find Out More <span>About Us </span></h3>
+                <h5 class="mb-5 mt-3">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem</h5>
+            </div>
+            <div class="row">
+                <div class="col-md-6" >
+                    <img src="assets/img/office.jpg" class="img-fluid" alt="Office Image">
+                </div>
+                <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+                    <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda</h4>
+                    <p>One must visualize the ego in order to yearn the visitor of holographic happiness.</p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex">
+                            <i class="bi bi-gear-fill"></i>
+                            <div>
+                                <h5>All children like pressed raspberries in peppermint tea and onion powder.</h5>
+                                <p>Fear doesn’t confidently acquire any power — but the believer is what disappears.The monastery is full of man.</p>
+                            </div>
+                        </li>
+                        <li class="d-flex">
+                            <i class="bi bi-server"></i>
+                            <div>
+                                <h5>Ice crushed mackerels in a sauté pan with worcestershire sauce for about an hour to soothe their bitterness.</h5>
+                                <p>Remember: sliceed sausages taste best when shaken in a grinder blended with butter.Scream smartly like a dark mainland.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="skills mt-5 mb-5">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <h5>CSS</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <h5>JAVASCRIPT</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="skill">
+                        <h5>PHP</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <h5>WORDPRESS</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <h5>PHOTOSHOP</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counts mb-5 mt-5">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-emoji-smile"></i>
+                        <span data-purecounter-start="0"
+                              data-purecounter-end="232"
+                              data-purecounter-delay="5"
+                              class="purecounter">
+                                232
+                        </span>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-journal-richtext"></i>
+                        <span data-purecounter-start="0"
+                              data-purecounter-end="521"
+                              data-purecounter-delay="5"
+                              class="purecounter">
+                                521
+                        </span>
+                        <p>Projects</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-headset"></i>
+                        <span data-purecounter-start="0"
+                              data-purecounter-end="1463"
+                              data-purecounter-delay="5"
+                              class="purecounter">
+                                1463
+                        </span>
+                        <p>Hours of Support</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-people"></i>
+                        <span data-purecounter-start="0"
+                              data-purecounter-end="15"
+                              data-purecounter-delay="5"
+                              class="purecounter">
+                                15
+                        </span>
+                        <p>Hard Workers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services mt-5 mb-5">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title text-center">
+                <h2>Services</h2>
+                <h3>Learn about our<span>Services</span></h3>
+                <h5 class="mb-5 mt-3">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem</h5>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="bi bi-folder2-open"></i>
+                        </div>
+                        <h4><a href="">Lorem Ipsum</a></h4>
+                        <p>Melted cauliflower can be made crushed by brushing with lime.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="bi bi-app"></i>
+                        </div>
+                        <h4><a href="">Practical Learning</a></h4>
+                        <p>Melted cauliflower can be made crushed by brushing with lime.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                        <h4><a href="">Become Master of Code</a></h4>
+                        <p>Melted cauliflower can be made crushed by brushing with lime.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="bi bi-alarm"></i>
+                        </div>
+                        <h4><a href="">Good Day</a></h4>
+                        <p>Melted cauliflower can be made crushed by brushing with lime.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h4><a href="">Wishful Thinking</a></h4>
+                        <p>Melted cauliflower can be made crushed by brushing with lime.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="bi bi-align-middle"></i>
+                        </div>
+                        <h4><a href="">Security Expert</a></h4>
+                        <p>Melted cauliflower can be made crushed by brushing with lime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials mb-5">
+        <div class="container" data-aos="zoom-in">
+            <div class="swiper-container testimonials-slider" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="" alt="">
+                            <h3>David Brown</h3>
+                            <h4>CEO &amp; Founder</h4>
+                            <p>
+                                <i class="bi bi-chat quote-chat"></i>
+                                Going to the outer world doesn’t handle freedom anymore than illuminating creates magical stigma.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="" alt="">
+                            <h3>Lavinski Green</h3>
+                            <h4>CEO &amp; Founder</h4>
+                            <p>
+                                <i class="bi bi-chat quote-chat"></i>
+                                Sauerkraut can be covered with canned avocado, also try varnishing the smoothie with teriyaki.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="" alt="">
+                            <h3>Dr. Watson </h3>
+                            <h4>Investigative &amp; Manager</h4>
+                            <p>
+                                <i class="bi bi-chat quote-chat"></i>
+                                One must praise the aspect in order to acquire the moon of searious art.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title text-center">
+                <h2>Portfolio</h2>
+                <h3>Check our<span> Portfolio</span></h3>
+                <h5 class="mb-5 mt-3">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem</h5>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12">
+                    <div class="button-group filter-button-group text-center mb-3">
+                        <button class="btn btn-primary" data-filter="*">All</button>
+                        <button class="btn btn-primary" data-filter=".filter-fruit">Fruit</button>
+                        <button class="btn btn-primary" data-filter=".filter-item">Item</button>
+                        <button class="btn btn-primary" data-filter=".filter-food">Food</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-food">
+                    <img src="assets/img/bread.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-food">
+                    <img src="assets/img/cabbage.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-fruit">
+                    <img src="assets/img/lemon.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-item">
+                    <img src="assets/img/lens.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-item">
+                    <img src="assets/img/nike.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-item">
+                    <img src="assets/img/OxiMeter.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-food">
+                    <img src="assets/img/pea.jpg" alt="" class="img-fluid">
+                </div><div class="col-lg-4 col-md-6 portfolio-item filter-fruit">
+                    <img src="assets/img/plate.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-item">
+                    <img src="assets/img/redtea.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-item">
+                    <img src="assets/img/thermometer.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <script src="assets/jquery/jquery.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <script async src="assets/purecounter/purecounter.js"></script>
+    <script src="assets/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/isotope/isotope.pkgd.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            speed: 600,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false
+            },
+            slidesPerView: 'auto',
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            },
+
+        });
+    </script>
+    <script>
+        var $grid = $('.portfolio-container').isotope({
+            // options
+            itemSelector: '.portfolio-item'
+        });
+        $('.filter-button-group').on( 'click', 'button', function() {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
+        });
+    </script>
+</body>
+</html>
