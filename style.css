@@ -418,3 +418,54 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
     font-size: 18px;
 }
+
+/* Team */
+
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+}
+
+.member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.member .social {
+    position: absolute;
+    left: 0px;
+    bottom:50px;
+    right:0;
+    text-align: center;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+
+.member .social i {
+    font-size: 18px;
+}
+
+.member .member-info {
+    padding: 25px 15px;
+}
+
+.member .social a {
+    color: #fff;
+    margin: 0 3px;
+    padding-top: 7px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background: rgba(16, 110, 234, 0.8);
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+    transition: color 0.3s;
+}
+
+.member:hover .social {
+    opacity: 1;
+    bottom: 35px;
+}
