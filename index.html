@@ -37,6 +37,7 @@
         </div>
     </section>
 
+    <!--    header-->
     <nav id="header" class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <h1 class="logo">
@@ -632,6 +633,17 @@
             var filterValue = $(this).attr('data-filter');
             $grid.isotope({ filter: filterValue });
         });
+
+        var $obj = $('#header');
+        $(window).scroll(function (event) {
+            var y = $(this).scrollTop();
+            if (y > 55) {
+                $obj.addClass('fixed-top');
+            } else {
+                $obj.removeClass('fixed-top');
+            }
+        });
+
     </script>
 </body>
 </html>
