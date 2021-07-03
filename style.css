@@ -526,3 +526,21 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 0 0  25px;
     font-size: 18px;
 }
+
+/*Contact*/
+.info-box i::before {
+    font-size: 32px;
+    color: #106eea;
+    border-radius: 50%;
+    border: 2px dotted #b3d1fa;
+    padding: 14px;
+}
+
+.info-box h3 {
+    margin-top: 20px;
+    color: #797979;
+}
+
+.contact-form .row {
+    margin-bottom: 30px;
+}
